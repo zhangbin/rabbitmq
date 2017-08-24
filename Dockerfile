@@ -17,9 +17,6 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 # Add files.
-ADD root/.bashrc /root/.bashrc
-ADD root/.gitconfig /root/.gitconfig
-ADD root/.scripts /root/.scripts
 ADD bin/rabbitmq-start /usr/local/bin/
 
 # Install RabbitMQ.
